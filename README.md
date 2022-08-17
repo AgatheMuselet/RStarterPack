@@ -1,8 +1,8 @@
 Starter Pack R - POO - Bonnes pratiques de Dev
 Informations
-Initié le : 29/04/2022
+Initié le : Août 2022
 
-Interlocuteurs : Estelle ROSSET, Long NGUYEN, Erwan JOSSE, Raphaël LE GOFF
+Interlocuteurs : XXX
 
 Dans le cadre du projet interne DataScience STARTER PACK R - POO - BONNES PRATIQUES
 
@@ -25,7 +25,7 @@ fichier README.md : C'est le présent fichier. Il constitue la documentation pri
 Cas d'usage utilisé dans le starter pack
 Ici le cas d'usage employé est très simple à appréhender. Nous avons un fichier Excel d'entrée (data/input/Mars2022.csv) qui comporte diverses informations relatives à des logements. L'objectif du programme est de mettre à jour les prix le mois suivant et généré un nouvel export (data/output/Avril2022.csv)
 
-Pour l'import des données, il y a une classe ImportData (src/ImportData.R), sans attributs de classes mais avec une méthode de classe nommée load() qui permets de charger les données d'un fichier spécifié en paramètre dans un dataframe R.
+Pour l'import des données, il y a une classe ImportData (src/ImportData.R), sans attributs de classes mais avec une méthode de classe nommée load() qui permet de charger les données d'un fichier spécifié en paramètre dans un dataframe R.
 
 A partir de ce dataframe, nous créons une liste d'objets de type Logement (scr/Logement.R). Un logement est défini par un ID, une adresse, une ville, une catégorie (appartement ou maison), une surface et un prix. La fonction createListLogement() transforme ainsi le précédent dataframe en une liste de Logement.
 
