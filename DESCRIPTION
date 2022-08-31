@@ -1,6 +1,6 @@
 Package: RStarterPack
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Projet de démo d'un projet R. avec un exemple sur un dataframe de Logement. (Import , Update  Export)
+Version: 0.0.0.9001
 Authors@R: 
     person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
