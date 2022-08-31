@@ -48,3 +48,5 @@ monoutput<- new("ExportData", monjdd="mon_update", filename="./data/output/Avril
 
 # Export data to a new CSV file.
 export(monoutput)
+
+##renv::init()
