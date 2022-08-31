@@ -4,10 +4,15 @@ Initié : Août 2022
 
 Interlocuteurs : Business & Decision 
 
-Dans le cadre du projet interne DataScience STARTER PACK R - POO - BONNES PRATIQUES
+STARTER PACK R - POO - BONNES PRATIQUES
 
 - Description
---> L'objectif de ce projet est d'avoir un package de démarrage pour vos projets réalisés en langage R. Celui-ci doit faciliter votre organisation lors de vos développements. Vous pouvez y retrouver différents dossiers et eléments dont chacun répond à des objectifs précis :
+--> L'objectif de ce projet est de vous accompagner dans la mise en place d'un travail en R reproductible.
+Le  package est l'unité fondamentale pour une bonne collaboration en équipe.
+Ce kit de démarrage permettra de vous aider à transformer votre code en packages que d’autres peuvent facilement télécharger et utiliser.
+
+--> Un package R inclue des fonctions R réutilisables, la documentation qui décrit comment les utiliser et des exemples de données.
+Celui-ci doit faciliter votre organisation lors de vos développements. Vous pouvez y retrouver différents dossiers et eléments dont chacun répond à des objectifs précis :
 
 
 -**dossier documentation** : Permet d'enregistrer dans un emplacement défini les documentations relatives à votre projet. Pour le starter pack, on y retrouve les documents rédigés sur les bonnes pratiques de développement (linters, formateurs, tests unitaires) et la Programmation Orientée Objet (POO) notamment.
