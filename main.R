@@ -39,11 +39,12 @@ S4_to_dataframe <- function(s4obj) {
   as.data.frame(setNames(lst, nms))
 }
 
+mon_update
 
 meslogements_update<-as.data.frame(t(sapply(logements_list,S4_to_dataframe)))   
 mon_update<-as.data.frame(lapply(meslogements_update, unlist))
 
-monoutput<- new("ExportData", monjdd="mon_update", filename="./data/outpout/Avril2022.csv")
+monoutput<- new("ExportData", monjdd="mon_update", filename="./data/output/Avril2022.csv")
 
 # Export data to a new CSV file.
 export(monoutput)
