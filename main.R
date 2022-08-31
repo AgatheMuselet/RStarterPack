@@ -9,7 +9,7 @@ ls("package:mesfonctionspartagees") #lister les fonctions du package
 
 
 ##fonctions spécifique projet
-source(list.files("./src/"))
+source(paste0("./src/",list.files("./src/")))
 
 
 # Loading data source into a dataframe.
@@ -43,7 +43,7 @@ S4_to_dataframe <- function(s4obj) {
 meslogements_update<-as.data.frame(t(sapply(logements_list,S4_to_dataframe)))   
 mon_update<-as.data.frame(lapply(meslogements_update, unlist))
 
-monoutput<- new("ExportData", monjdd="mon_update", filename="Avril2022.csv")
+monoutput<- new("ExportData", monjdd="mon_update", filename="./data/outpout/Avril2022.csv")
 
 # Export data to a new CSV file.
 export(monoutput)
